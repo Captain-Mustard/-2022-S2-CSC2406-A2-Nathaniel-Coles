@@ -7,10 +7,10 @@ body {background-color: #fcd6b5;}
     height: 15%;
 
     
-    background: linear-gradient(180deg, #ff9500, #ff9500, #ff9500);
+    background: linear-gradient(180deg, #fac08e, #fac08e, #fac08e);
 
     
-    color: black;
+    color: #231f20;
 
     /* Some padding to help text wrap nicely */
     padding: 4rem;

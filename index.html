@@ -7,6 +7,7 @@
         <link rel="icon" type="image/x-icon" href="ABS_Logo.svg">
         <style>
             body {background-color: #fcd6b5;}
+        
         </style>
         <script src="censusScript.js">
 
@@ -24,16 +25,12 @@
                 <input type="radio" name="Gender" value="male"> Male
                 <input type="radio" name="Gender" value="female"> Female </p><br>
         
-            <p>SELECT YOUR COURSE
-                <select type="text" value="" name="Subject"> 
-                    <option>BTECH</option> 
-                    <option>BBA</option> 
-                    <option>BCA</option> 
-                    <option>BCOM</option> 
-                </select></p><br><br> 
+            <p>How many people spent the census night at the dwelling?
+            <input type="number" value="" name="Residents" min="1"> 
+            </input></p><br><br> 
         
             <p><input type="submit" value="Send" name="Submit"> 
-                <input type="clear" value="Clear" name="Clear"> 
+                <input type="reset" value="Clear" name="Clear"> 
             </p> 
         </form> 
     </body>
